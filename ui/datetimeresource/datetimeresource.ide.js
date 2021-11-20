@@ -59,6 +59,13 @@ TW.IDE.Widgets.datetimeresource = function () {
           defaultValue: '',
           baseType: 'NUMBER'
         },
+        'browserTimeZone': {
+          'isEditable': false,
+          description: "The browser timezone",
+          isBindingSource: true,
+          defaultValue: '',
+          baseType: 'STRING'
+        },
         'date': {
           'isEditable': true,
           description: "The date to use for intervalType = day, week, month, year",

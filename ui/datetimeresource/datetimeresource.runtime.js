@@ -1,4 +1,4 @@
-/* global TW */
+/* global TW, Intl */
 TW.Runtime.Widgets.datetimeresource = function () {
   var thisWidget = this;
 
@@ -18,10 +18,12 @@ TW.Runtime.Widgets.datetimeresource = function () {
     var debugMode = thisWidget.getProperty('debugMode');
 
     var offset = new Date().getTimezoneOffset();
+    var timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     if (debugMode) {
-      console.log("DataTimeResource - browserTimeZoneOffset = " + offset);
+      console.log("DataTimeResource - browserTimeZoneOffset = " + offset + ", browserTimeZone = " + timezone);
     }
     thisWidget.setProperty('browserTimeZoneOffset', offset);
+    thisWidget.setProperty('browserTimeZone', timezone);
   };
 
   this.serviceInvoked = function (serviceName) {

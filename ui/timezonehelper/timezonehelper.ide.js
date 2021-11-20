@@ -26,6 +26,13 @@ TW.IDE.Widgets.timezonehelper = function () {
           defaultValue: '',
           baseType: 'NUMBER'
         },
+        'browserTimeZone': {
+          'isEditable': false,
+          description: "The browser timezone",
+          isBindingSource: true,
+          defaultValue: '',
+          baseType: 'STRING'
+        },
         'numberOfDates': {
           'description': 'The number of dates to manage',
           'baseType': 'NUMBER',
