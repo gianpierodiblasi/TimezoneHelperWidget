@@ -2,8 +2,8 @@
 <Entities>
   <ExtensionPackages>
     <ExtensionPackage 
-      name="DateTimeWidget"
-      packageVersion="1.1.0"
+      name="TimezoneHelperWidget"
+      packageVersion="2.0.0"
       vendor="Accenture Italy - Industry X"
       description="Extension to manage dates and times"
       minimumThingWorxVersion="8.3.0"

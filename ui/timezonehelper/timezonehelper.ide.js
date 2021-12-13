@@ -1,7 +1,7 @@
 /* global TW */
 TW.IDE.Widgets.timezonehelper = function () {
   this.widgetIconUrl = function () {
-    return '../Common/extensions/DateTimeWidget/ui/timezonehelper/timezone.png';
+    return '../Common/extensions/TimezoneHelperWidget/ui/timezonehelper/timezone.png';
   };
 
   this.widgetProperties = function () {

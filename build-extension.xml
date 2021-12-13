@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<project name="DateTimeWidget" basedir="." default="build"> 
+<project name="TimezoneHelperWidget" basedir="." default="build"> 
  
-  <property name="extension.jar" value="datetimewidget.jar" /> 
+  <property name="extension.jar" value="timezonehelperwidget.jar" /> 
  
   <property name="target"         value="1.8" /> 
   <property name="source"         value="1.8" /> 
