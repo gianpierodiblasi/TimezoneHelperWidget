@@ -12,14 +12,6 @@
   </ExtensionPackages>
   
   <Widgets>
-    <Widget name="datetimeresource">
-      <UIResources>
-        <FileResource description="" file="datetimeresource.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
-        <FileResource description="" file="datetimeresource.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
-        <FileResource description="" file="datetimeresource.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
-        <FileResource description="" file="datetimeresource.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
-      </UIResources>
-    </Widget>
     <Widget name="timezonehelper">
       <UIResources>
         <FileResource description="" file="timezonehelper.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
