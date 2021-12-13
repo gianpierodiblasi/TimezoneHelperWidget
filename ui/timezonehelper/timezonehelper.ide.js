@@ -35,7 +35,7 @@ TW.IDE.Widgets.timezonehelper = function () {
         },
         'numberOfDates': {
           'description': 'The number of dates to manage',
-          'baseType': 'NUMBER',
+          'baseType': 'INTEGER',
           'defaultValue': 1
         },
         'externalTimeZoneOffset': {
@@ -106,7 +106,7 @@ TW.IDE.Widgets.timezonehelper = function () {
         type: 'property',
         description: 'The type of timezone to use for the date N. ' + dateN,
         isBindingTarget: true,
-        baseType: "STING",
+        baseType: "STRING",
         defaultValue: 'b2t',
         isEditable: true,
         isVisible: true,
@@ -122,7 +122,7 @@ TW.IDE.Widgets.timezonehelper = function () {
         type: 'property',
         description: 'The number of days to add to the date N. ' + dateN + ' (used if and only if date' + dateN + 'TimeZoneType = "Browser TimeZone to External TimeZone")',
         isBindingTarget: true,
-        baseType: "NUMBER",
+        baseType: "INTEGER",
         defaultValue: 0,
         isEditable: true,
         isVisible: true
@@ -134,7 +134,7 @@ TW.IDE.Widgets.timezonehelper = function () {
         type: 'property',
         description: 'The type of action to be taken if the date N. ' + dateN + " is undefined",
         isBindingTarget: true,
-        baseType: "STING",
+        baseType: "STRING",
         defaultValue: 'nothing',
         isEditable: true,
         isVisible: true,

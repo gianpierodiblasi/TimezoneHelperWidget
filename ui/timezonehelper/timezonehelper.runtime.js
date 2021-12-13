@@ -28,7 +28,7 @@ TW.Runtime.Widgets.timezonehelper = function () {
 
   this.serviceInvoked = function (serviceName) {
     if (serviceName.toLowerCase().startsWith("date")) {
-      var dateN = parseInt(serviceName.replace("Date", "").replace("Evaluate", ""));
+      var dateN = parseInt(serviceName.replace("Date", "").replace("Evaluate", ""), 10);
 
       var debugMode = thisWidget.getProperty('debugMode');
       var externalTimeZoneOffset = thisWidget.getProperty('externalTimeZoneOffset');
