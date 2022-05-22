@@ -4,7 +4,7 @@
     <ExtensionPackage 
       name="TimezoneHelperWidget"
       packageVersion="2.0.0"
-      vendor="Accenture Italy - Industry X"
+      vendor="Gianpiero Di Blasi"
       description="Extension to manage timezones in dates"
       minimumThingWorxVersion="8.3.0"
       dependsOn=""> 
