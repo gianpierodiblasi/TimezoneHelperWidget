@@ -1,6 +1,8 @@
 # TimezoneHelperWidget
 An extension to manage timezones in dates.
 
+**This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite and there is no PTC support.**
+
 ## Description
 This extension provides a widget to manage timezones in dates.
 
